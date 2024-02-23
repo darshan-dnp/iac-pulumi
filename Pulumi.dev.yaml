@@ -1,0 +1,24 @@
+config:
+  aws:profile: dev
+  aws:region: us-east-1
+  gcp:project: cloud-dev-406517
+  iac-pulumi:data:
+    DB_NAME: "csye6225"
+    DB_PASS: "csye6225"
+    DB_PORT: "3306"
+    DB_USER: "csye6225"
+    cidr-block: "10.0.0.0/18"
+    dns_name: "dev.darshanpate.me"
+    gcp_project_id: "cloud-dev-406517"
+    hosted_zone: "Z070935823UP48HTVOLCT"
+    instance_type: "t2.micro"
+    key_name: "webappKey"
+    lb_ports: [80, 443]
+    name: "test"
+    num_of_subnets: 3
+    owner_id: "193615861989"
+    public-cidr: "0.0.0.0/0"
+    volume: 25
+    subscription_mail: "patel.darshan1@northeastern.edu"
+    EMAIL_LIST: "patel.darshan1@northeastern.edu"
+    CERTIFICATE_ARN: "arn:aws:acm:us-east-1:193615861989:certificate/59b93e45-967d-4157-ade2-ad38a17ef3cb"
